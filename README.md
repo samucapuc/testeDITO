@@ -1,6 +1,9 @@
-### Teste DITO
-####Parte 1:
-  No teste foi utilizado o spring boot versão 2.0.0.RELEASE com suporte ao ElasticSource 6.5.4.
+# Teste DITO
+Test for developer position
+By Samuel Oliveira Chaves
+14/07/2019
+### Parte 1:
+  Foi utilizado o spring boot versão 2.0.0.RELEASE com suporte ao ElasticSource 6.5.4.
   Para executar a aplicação, siga os passos abaixo:
   1)  Certifique-se que as variáveis JAVA_HOME e PATH estão configuradas
   2)  Instale o Maven.
@@ -8,8 +11,7 @@
   4)  Abra ${CAMINHO ELASTIC_SOURCE_INSTALADO}\config\elasticsearch.yml e acrescente no final do arquivo: cluster.name: dito-teste
   5)  Inicie o elasticsource em ${CAMINHO ELASTIC_SOURCE_INSTALADO}\bin\elasticsearch.bat ou elasticsearch.sh
   
-  Por padrão, na inicialização a aplicação já vai inserir alguns dados caso o perfil seja dev ou test.
-  
+  Por padrão, na inicialização, a aplicação vai inserir alguns dados caso o perfil seja DEV ou TEST.
   Para buscar todos os eventos por auto complete, execute:
   http://localhost:8080/api/events/findAll?name=com
   
@@ -18,6 +20,7 @@
   
   Para executar a coleta de dados, execute:
   http://localhost:8080/api/events
+  ```
     {
       "id": 1,	
       "event": "comprou-produto",
@@ -37,7 +40,9 @@
         }
       ]
     }
-###Parte 2:
+  ```
+
+### Parte 2:
   Para trazer as timelines dos eventos ordenados pelo id da transação, execute:
   http://localhost:8080/api/timelines
   
