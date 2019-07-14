@@ -19,7 +19,7 @@ By Samuel Oliveira Chaves
   http://localhost:9200/dito/events/_search?pretty=true
   
   Para executar a coleta de dados, execute:
-  http://localhost:8080/api/events
+  http://localhost:8080/api/events e passe um json na estrutura abaixo:
   ```
     {
       "id": 1,	
