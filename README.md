@@ -1,6 +1,6 @@
 # Teste DITO
-Test for developer position
-By Samuel Oliveira Chaves
+Teste para vaga de desenvolvedor
+Por Samuel Oliveira Chaves
 14/07/2019
 ### Parte 1:
   Foi utilizado o spring boot versão 2.0.0.RELEASE com suporte ao ElasticSource 6.5.4.
